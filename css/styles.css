@@ -1,0 +1,72 @@
+body {
+    width: 600px;
+    line-height: 150%;
+    text-indent: 5px;
+    background-image: url("../assets/background.png");
+    margin : auto;
+}
+
+main {
+    background-color: rgba(131, 136, 146, 0.5);
+}
+
+nav {
+    font-weight: bold;
+    height: 50px;
+    background-color: rgba(131, 136, 146, 0.5);
+    display: flex;
+}
+nav div {
+    display: flex;
+    position: relative;
+    padding-left: 4px;
+    width: 100px;
+    align-items: stretch;
+}
+nav div a{
+    align-items: center;
+}
+
+@font-face {
+    font-family: AlexBrush;
+    src: url(../assets/fonts/AlexBrush-Regular.ttf);
+}
+
+h3{
+    border: 1px solid #CCCCCC;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+h2 {
+    text-align: center;
+    font-family: "AlexBrush", "Lucida Sans Unicode", "Arial", "sans-serif";
+    border: 4px solid rgba(42, 127, 32, 0.5);
+    border-radius: 25px;
+}
+
+p {
+    margin: 0 30px;
+    font-family: "courier-std", courier, monospace;
+}
+li {
+    font-family: "courier-std", courier, monospace;
+}
+
+label {
+    margin: 0 30px;
+    font-family: "courier-std", courier, monospace;
+    color: #162815;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(50, 125, 95, 0.75);
+}
+a:visited {color: #002645;}
+a:hover {color: #090909;}
+
+thead {
+    background-color: rgba(90, 123, 167, 0.5);
+}
+
+td {text-align: center;}

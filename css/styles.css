@@ -3,7 +3,7 @@ body {
     line-height: 150%;
     text-indent: 5px;
     background-image: url("../assets/background.png");
-    margin : auto;
+    margin: auto;
 }
 
 main {
@@ -16,6 +16,7 @@ nav {
     background-color: rgba(131, 136, 146, 0.5);
     display: flex;
 }
+
 nav div {
     display: flex;
     position: relative;
@@ -23,7 +24,8 @@ nav div {
     width: 100px;
     align-items: stretch;
 }
-nav div a{
+
+nav div a {
     align-items: center;
 }
 
@@ -32,11 +34,12 @@ nav div a{
     src: url(../assets/fonts/AlexBrush-Regular.ttf);
 }
 
-h3{
+h3 {
     border: 1px solid #CCCCCC;
     border-radius: 10px;
     padding: 0 10px;
 }
+
 h2 {
     text-align: center;
     font-family: "AlexBrush", "Lucida Sans Unicode", "Arial", "sans-serif";
@@ -48,6 +51,7 @@ p {
     margin: 0 30px;
     font-family: "courier-std", courier, monospace;
 }
+
 li {
     font-family: "courier-std", courier, monospace;
 }
@@ -62,11 +66,19 @@ a {
     text-decoration: none;
     color: rgba(50, 125, 95, 0.75);
 }
-a:visited {color: #002645;}
-a:hover {color: #090909;}
+
+a:visited {
+    color: #002645;
+}
+
+a:hover {
+    color: #090909;
+}
 
 thead {
     background-color: rgba(90, 123, 167, 0.5);
 }
 
-td {text-align: center;}
+td {
+    text-align: center;
+}

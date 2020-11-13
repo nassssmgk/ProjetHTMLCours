@@ -6,6 +6,18 @@ body {
     margin: auto;
 }
 
+.submenu {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    color: #aca;
+    display: none;
+}
+
+nav div:hover .submenu {
+    display: block;
+}
+
 main {
     background-color: rgba(131, 136, 146, 0.5);
 }

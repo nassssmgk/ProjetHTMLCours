@@ -29,7 +29,7 @@ nav {
     height: 50px;
     display: flex;
     background-color: rgba(131, 136, 146, 0.5);
-    font-family: "AlexBrush", "Lucida Sans Unicode", "Arial", "sans-serif";
+    font-family: "BigShouldersStencilText", "Lucida Sans Unicode", "Arial", "sans-serif";
     font-size: 180%;
 }
 
@@ -43,11 +43,6 @@ nav div {
 
 nav div a {
     align-items: center;
-}
-
-@font-face {
-    font-family: AlexBrush;
-    src: url(../assets/fonts/AlexBrush-Regular.ttf);
 }
 
 @font-face {

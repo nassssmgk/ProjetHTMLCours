@@ -3,6 +3,9 @@ body {
     line-height: 150%;
     text-indent: 5px;
     background-image: url("../assets/background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
     margin: auto;
 }
 
@@ -79,16 +82,6 @@ p {
     font-size: 150%;
 }
 
-li {
-    font-family: "courier-std", courier, monospace;
-}
-
-label {
-    margin: 0 30px;
-    font-family: "courier-std", courier, monospace;
-    color: #162815;
-}
-
 a {
     text-decoration: none;
     color: rgba(50, 125, 95, 0.75);
@@ -100,35 +93,4 @@ a:visited {
 
 a:hover {
     color: #090909;
-}
-
-thead {
-    background-color: rgba(90, 123, 167, 0.5);
-}
-
-td {
-    text-align: center;
-}
-
-#motor {
-    width: 50%;
-    display: block;
-    margin: 0 auto;
-}
-
-#logo {
-    width: 100px;
-    display: block;
-    margin: 0 auto;
-}
-
-#schema {
-    width: 70%;
-    display: block;
-    margin: 0 auto;
-}
-
-.product-text {
-    font-family: "Goldman", "Lucida Sans Unicode", "Arial", "sans-serif";
-    text-align: center;
 }

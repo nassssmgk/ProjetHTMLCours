@@ -50,6 +50,21 @@ nav div a {
     src: url(../assets/fonts/AlexBrush-Regular.ttf);
 }
 
+@font-face {
+    font-family: Goldman;
+    src: url(../assets/fonts/Goldman-Regular.ttf);
+}
+
+@font-face {
+    font-family: BigShouldersStencilText;
+    src: url(../assets/fonts/BigShouldersStencilText-Regular.ttf);
+}
+
+@font-face {
+    font-family: Teko;
+    src: url(../assets/fonts/Teko-Light.ttf);
+}
+
 h3 {
     border: 1px solid #CCCCCC;
     border-radius: 10px;
@@ -58,14 +73,15 @@ h3 {
 
 h2 {
     text-align: center;
-    font-family: "Big Shoulders Stencil Text", "Lucida Sans Unicode", "Arial", "sans-serif";
+    font-family: "BigShouldersStencilText", "Lucida Sans Unicode", "Arial", "sans-serif";
     border: 4px solid rgb(140, 14, 68);
     border-radius: 25px;
 }
 
 p {
     margin: 0 30px;
-    font-family: "courier-std", courier, monospace;
+    font-family: "Teko", courier, monospace;
+    font-size: 150%;
 }
 
 li {

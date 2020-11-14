@@ -58,8 +58,8 @@ h3 {
 
 h2 {
     text-align: center;
-    font-family: "AlexBrush", "Lucida Sans Unicode", "Arial", "sans-serif";
-    border: 4px solid rgba(42, 127, 32, 0.5);
+    font-family: "Big Shoulders Stencil Text", "Lucida Sans Unicode", "Arial", "sans-serif";
+    border: 4px solid rgb(140, 14, 68);
     border-radius: 25px;
 }
 
@@ -100,15 +100,24 @@ td {
 }
 
 #motor {
-    margin-left: auto;
-    margin-right: auto;
     width: 50%;
+    display: block;
+    margin: 0 auto;
 }
+
 #logo {
-    margin-left: auto;
-    margin-right: auto;
     width: 100px;
+    display: block;
+    margin: 0 auto;
 }
-#logo-text {
-    font-family: "AlexBrush", "Lucida Sans Unicode", "Arial", "sans-serif";
+
+#schema {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+.product-text {
+    font-family: "Goldman", "Lucida Sans Unicode", "Arial", "sans-serif";
+    text-align: center;
 }

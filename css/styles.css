@@ -9,6 +9,10 @@ body {
     margin: auto;
 }
 
+#nousRejoindre {
+    margin-left: 10%;
+}
+
 .submenu {
     position: absolute;
     top: 50px;

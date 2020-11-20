@@ -2,14 +2,15 @@ body {
     width: 600px;
     line-height: 150%;
     text-indent: 5px;
-    background-image: url("../assets/background.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100%;
+    background: #f8dce8 url("../assets/background.png") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     margin: auto;
 }
 
-#nousRejoindre {
+.nousRejoindre {
     margin-left: 10%;
 }
 
@@ -19,12 +20,47 @@ body {
     left: 0;
     color: #aca;
     display: none;
+    flex-direction: column;
+}
+
+.burger {
+    display: none;
+}
+
+.menu2 {
+    position: fixed;
+    flex-direction: column;
+    display: none;
+    top: 15px;
+    left: 60px;
+    background-color: rgba(131, 136, 146, 0.5);
+}
+
+#burger-picture {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+body .burger:hover .menu2 {
+    display: flex;
+}
+
+.menu2 #submenuForMenu2:hover .submenu {
+    display: flex;
+    font-weight: bold;
+    background-color: rgba(131, 136, 146, 0.8);
+    flex-basis: content-box;
+    height: 275%;
 }
 
 nav div:hover .submenu {
-    display: block;
+    display: flex;
     font-weight: bold;
     background-color: rgba(131, 136, 146, 0.5);
+    flex-basis: content-box;
+    height: 275%;
+    align-items: stretch;
 }
 
 main {
@@ -36,20 +72,16 @@ nav {
     height: 50px;
     display: flex;
     background-color: rgba(131, 136, 146, 0.5);
-    font-family: "BigShouldersStencilText", "Lucida Sans Unicode", "Arial", "sans-serif";
     font-size: 180%;
 }
 
-nav div {
+div {
     display: flex;
     position: relative;
     padding-left: 4px;
-    width: 100px;
-    align-items: stretch;
-}
-
-nav div a {
     align-items: center;
+    flex-grow: 1;
+    font-family: "BigShouldersStencilText", "Lucida Sans Unicode", "Arial", "sans-serif";
 }
 
 @font-face {
@@ -97,4 +129,14 @@ a:visited {
 
 a:hover {
     color: #090909;
+}
+
+@media (max-width: 480px) {
+    .menu {
+        display: none;
+    }
+
+    .burger {
+        display: flex;
+    }
 }

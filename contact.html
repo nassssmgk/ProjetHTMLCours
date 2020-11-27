@@ -26,7 +26,7 @@
 <form>
     <fieldset>
         <legend>Informations personelles</legend>
-        <label for="surname">Nom*</label>
+        <label for="nom">Nom*</label>
         <input type="text" id="nom" name="uname" required>
         <label for="firstname">Prénom*</label>
         <input id="firstname" name="firstname" type="text" required>
@@ -34,47 +34,47 @@
         <input id="E-mail" name="E-mail" type="email" placeholder="yourmail@domain.com" pattern="[a-z0-9._-]+@[a-z0-9.-]+\.[a-z]{2,4}" required>
         <label for="postal">Code postal</label>
         <input type="text" id="postal" name="postal" pattern="[0-9]">
-        <label for ="Pays d'origine">Séléctionner votre pays</label>
-        <select name"Pays" id="pays">
-        <option value="" selected >--Veuillez choisir une option--</option> <!-- Les valeurs sont les plaques d'immatriculation des pays -->
-        <option value="f">France</option>
-        <option value="usa">USA</option>
-        <option value="chn">Chine</option>
-        <option value="IND">Inde</option>
-        <option value="e">Espagne</option>
-        <option value="p">Portugal</option>
-        <option value="p">Royaume-Uni</option>
-        <option value="irl">Irlande </option>
-        <option value="ri">Indonésie</option>
-        <option value="pk">Pakistan</option>
-        <option value="br">Brésil</option>
-        <option value="j">Japon</option>
-        <option value="rus">Russie</option>
-        <option value="s">Suède</option>
-        <option value="fin">Finlande</option>
-        <option value="est">Estonie</option>
-        <option value="lv">Lettonie</option>
-        <option value="lt">Lituanie</option>
-        <option value="pl">Pologne</option>
-        <option value="cz">République Tchèque</option>
-        <option value="sk">Slovaquie</option>
-        <option value="h">Hongrie</option>
-        <option value="ro">Roumanie</option>
-        <option value="bg">Bulgarie</option>
-        <option value="gr">Grèce</option>
-        <option value="m">Malte</option>
-        <option value="cy">Chypre</option>
-        <option value="a">Autriche</option>
-        <option value="slo">Slovénie</option>
-        <option value="hr">Croatie</option>
-        <option value="d">Allemagne</option>
-        <option value="nl">Pays-bas</option>
-        <option value="dk">Danemark</option>
-        <option value="b">Belgique</option>
-        <option value="l">Luxembourg</option>
-        <option value="ch">Suisse</option>
-        <option value="I">Italie</option>
-    </select>
+        <label for ="pays">Séléctionner votre pays</label>
+        <select name"pays" id="pays">
+            <option value="" selected >--Veuillez choisir une option--</option> <!-- Les valeurs sont les plaques d'immatriculation des pays -->
+            <option value="f">France</option>
+            <option value="usa">USA</option>
+            <option value="chn">Chine</option>
+            <option value="IND">Inde</option>
+            <option value="e">Espagne</option>
+            <option value="p">Portugal</option>
+            <option value="p">Royaume-Uni</option>
+            <option value="irl">Irlande </option>
+            <option value="ri">Indonésie</option>
+            <option value="pk">Pakistan</option>
+            <option value="br">Brésil</option>
+            <option value="j">Japon</option>
+            <option value="rus">Russie</option>
+            <option value="s">Suède</option>
+            <option value="fin">Finlande</option>
+            <option value="est">Estonie</option>
+            <option value="lv">Lettonie</option>
+            <option value="lt">Lituanie</option>
+            <option value="pl">Pologne</option>
+            <option value="cz">République Tchèque</option>
+            <option value="sk">Slovaquie</option>
+            <option value="h">Hongrie</option>
+            <option value="ro">Roumanie</option>
+            <option value="bg">Bulgarie</option>
+            <option value="gr">Grèce</option>
+            <option value="m">Malte</option>
+            <option value="cy">Chypre</option>
+            <option value="a">Autriche</option>
+            <option value="slo">Slovénie</option>
+            <option value="hr">Croatie</option>
+            <option value="d">Allemagne</option>
+            <option value="nl">Pays-bas</option>
+            <option value="dk">Danemark</option>
+            <option value="b">Belgique</option>
+            <option value="l">Luxembourg</option>
+            <option value="ch">Suisse</option>
+            <option value="I">Italie</option>
+        </select>
     </fieldset>
     <fieldset>
         <legend>Autre</legend>
@@ -90,7 +90,7 @@
         <label for="date">Date à laquelle vous souhaitez être recontacté(au plus tôt demain)</label>
         <input type="date" id="date" name="date" required>
         <label for="Msg">Message complémentaire(si besoin)</label>
-        <textarea id="Msgk" placeholder="Si besoin particulier  ou besoin de détails sur le fonctionnement"></textarea> 
+        <textarea id="Msg" placeholder="Si besoin particulier  ou besoin de détails sur le fonctionnement"></textarea> 
         
     </fieldset>
     <input type="submit" value="Envoyer">

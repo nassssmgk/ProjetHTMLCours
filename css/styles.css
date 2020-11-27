@@ -47,11 +47,12 @@ body .burger:hover .menu2 {
 }
 
 .menu2 #submenuForMenu2:hover .submenu {
-    display: flex;
+    display: inline;
     font-weight: bold;
     background-color: rgba(131, 136, 146, 0.8);
     flex-basis: content-box;
     height: 275%;
+    top: 48px;
 }
 
 nav div:hover .submenu {
@@ -131,7 +132,7 @@ a:hover {
     color: #090909;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 560px) {
     .menu {
         display: none;
     }

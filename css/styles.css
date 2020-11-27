@@ -2,36 +2,104 @@ body {
     width: 600px;
     line-height: 150%;
     text-indent: 5px;
-    background-image: url("../assets/background.png");
+    background: #f8dce8 url("/assets/background.png") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     margin: auto;
 }
 
-main {
+.nousRejoindre {
+    margin-left: 10%;
+}
+
+.submenu {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    color: #aca;
+    display: none;
+    flex-direction: column;
+}
+
+.burger {
+    display: none;
+}
+
+.menu2 {
+    position: fixed;
+    flex-direction: column;
+    display: none;
+    top: 15px;
+    left: 60px;
     background-color: rgba(131, 136, 146, 0.5);
+}
+
+#burger-picture {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+body .burger:hover .menu2 {
+    display: flex;
+}
+
+.menu2 #submenuForMenu2:hover .submenu {
+    display: inline;
+    font-weight: bold;
+    background-color: rgba(131, 136, 146, 0.5);
+    flex-basis: content-box;
+    height: 275%;
+    top: 48px;
+}
+
+nav div:hover .submenu {
+    display: flex;
+    font-weight: bold;
+    background-color: rgba(131, 136, 146, 0.5);
+    flex-basis: content-box;
+    height: 275%;
+    align-items: stretch;
+}
+
+main {
+    background-color: rgba(131, 90, 119, 0.5);
 }
 
 nav {
     font-weight: bold;
     height: 50px;
-    background-color: rgba(131, 136, 146, 0.5);
     display: flex;
+    background-color: rgba(131, 136, 146, 0.5);
+    font-size: 180%;
 }
 
-nav div {
+div {
     display: flex;
     position: relative;
     padding-left: 4px;
-    width: 100px;
-    align-items: stretch;
-}
-
-nav div a {
     align-items: center;
+    flex-grow: 1;
+    font-family: "BigShouldersStencilText", "Lucida Sans Unicode", "Arial", "sans-serif";
 }
 
 @font-face {
-    font-family: AlexBrush;
-    src: url(../assets/fonts/AlexBrush-Regular.ttf);
+    font-family: Goldman;
+    src: url(../assets/fonts/Goldman-Regular.ttf);
+}
+
+@font-face {
+    font-family: BigShouldersStencilText;
+    src: url(../assets/fonts/BigShouldersStencilText-Regular.ttf);
+}
+
+@font-face {
+    font-family: Teko;
+    src: url(../assets/fonts/Teko-Light.ttf);
 }
 
 h3 {
@@ -42,24 +110,15 @@ h3 {
 
 h2 {
     text-align: center;
-    font-family: "AlexBrush", "Lucida Sans Unicode", "Arial", "sans-serif";
-    border: 4px solid rgba(42, 127, 32, 0.5);
+    font-family: "BigShouldersStencilText", "Lucida Sans Unicode", "Arial", "sans-serif";
+    border: 4px solid rgb(140, 14, 68);
     border-radius: 25px;
 }
 
 p {
     margin: 0 30px;
-    font-family: "courier-std", courier, monospace;
-}
-
-li {
-    font-family: "courier-std", courier, monospace;
-}
-
-label {
-    margin: 0 30px;
-    font-family: "courier-std", courier, monospace;
-    color: #162815;
+    font-family: "Teko", courier, monospace;
+    font-size: 150%;
 }
 
 a {
@@ -75,10 +134,12 @@ a:hover {
     color: #090909;
 }
 
-thead {
-    background-color: rgba(90, 123, 167, 0.5);
-}
+@media (max-width: 560px) {
+    .menu {
+        display: none;
+    }
 
-td {
-    text-align: center;
+    .burger {
+        display: flex;
+    }
 }

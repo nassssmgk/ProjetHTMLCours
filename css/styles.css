@@ -1,5 +1,5 @@
 body {
-    width: 600px;
+    width: 1080px;
     line-height: 150%;
     text-indent: 5px;
     background: #f8dce8 url("/assets/background.png") no-repeat;
@@ -21,6 +21,7 @@ body {
     color: #aca;
     display: none;
     flex-direction: column;
+    z-index:1;
 }
 
 .burger {
@@ -115,8 +116,12 @@ h2 {
     border-radius: 25px;
 }
 
+h1 {
+    font-family: "BigShouldersStencilText", "Lucida Sans Unicode", "Arial", "sans-serif";
+}
+
 p {
-    margin: 0 30px;
+    margin: 0 30px 30px;
     font-family: "Teko", courier, monospace;
     font-size: 150%;
 }
@@ -134,7 +139,7 @@ a:hover {
     color: #090909;
 }
 
-@media (max-width: 560px) {
+@media (max-width: 1080px) {
     .menu {
         display: none;
     }

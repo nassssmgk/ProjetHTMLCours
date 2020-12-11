@@ -4,12 +4,8 @@
 
 .tab {
     display: grid;
-    grid-template-columns: repeat(9, 100px);
+    grid-template-columns: repeat(9, 110px);
     grid-gap: 10px;
-}
-
-body {
-    width: 1080px;
 }
 
 @media (max-width: 1080px) {

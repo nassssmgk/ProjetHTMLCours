@@ -1,0 +1,14 @@
+.anchor{
+    font-weight: bold;
+    font-size: 125%;
+    margin-bottom: 10px;
+    font-family: "Teko", courier, monospace;
+}
+
+.response {
+    margin-bottom: 5px;
+}
+
+#padoru-picture {
+    width: 100px;
+}

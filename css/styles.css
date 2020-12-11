@@ -116,6 +116,10 @@ h2 {
     border-radius: 25px;
 }
 
+h1 {
+    font-family: "BigShouldersStencilText", "Lucida Sans Unicode", "Arial", "sans-serif";
+}
+
 p {
     margin: 0 30px 30px;
     font-family: "Teko", courier, monospace;

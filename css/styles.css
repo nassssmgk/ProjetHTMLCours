@@ -21,6 +21,7 @@ body {
     color: #aca;
     display: none;
     flex-direction: column;
+    z-index:1;
 }
 
 .burger {

@@ -1,4 +1,4 @@
-.anchor{
+.anchor {
     font-weight: bold;
     font-size: 125%;
     margin-bottom: 10px;
@@ -6,7 +6,7 @@
 }
 
 .response {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 #padoru-picture {

@@ -3,9 +3,6 @@ body {
     line-height: 150%;
     text-indent: 5px;
     background-image: url("../assets/background.png");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     margin: auto;
 }
@@ -47,6 +44,7 @@ body {
 
 body .burger:hover .menu2 {
     display: flex;
+    z-index: 1;
 }
 
 .menu2 #submenuForMenu2:hover .submenu {
@@ -146,5 +144,32 @@ a:hover {
 
     .burger {
         display: flex;
+    }
+
+    body {
+        width: 600px;
+        background: #bca3e7;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    div {
+        font-size: 15px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 420px) {
+    body {
+        width: 200px;
     }
 }

@@ -1,8 +1,9 @@
 .metier {
-    display: flex;
-    width: 100%;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
 }
 
 p {
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }

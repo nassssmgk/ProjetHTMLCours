@@ -5,3 +5,7 @@
 div {
     display: block;
 }
+
+header div{
+    display: inline-flex;
+}

@@ -10,17 +10,3 @@ div {
 header div {
     display: inline-flex;
 }
-
-@media (max-width: 420px) {
-    select {
-        width: 140px;
-    }
-
-    label {
-        font-size: 10px;
-    }
-    .socialmedia {
-        width: 40px;
-        padding-left: 5px;
-    }
-}

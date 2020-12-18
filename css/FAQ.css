@@ -1,9 +1,8 @@
 .anchor {
     font-weight: bold;
     font-size: 125%;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     font-family: "Teko", courier, monospace;
-    display: inline-block;
 }
 
 .response {
@@ -12,20 +11,4 @@
 
 #padoru-picture {
     width: 100px;
-}
-
-.cut {
-    display: inline;
-    margin: 0 0 0 0;
-}
-
-@media (max-width: 1080px) {
-    .anchor {
-        font-size: 14px;
-    }
-
-    .cut {
-        display: block;
-        font-size: 14px;
-    }
 }

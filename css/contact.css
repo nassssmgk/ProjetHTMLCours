@@ -2,10 +2,11 @@
     width: 80px;
     padding-left: 10px;
 }
+
 div {
     display: block;
 }
 
-header div{
+header div {
     display: inline-flex;
 }
